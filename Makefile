@@ -1,6 +1,9 @@
 dist: components index.js styles.css template.html
 	@component build -o dist -n first-component
 
+watch:
+	@component build --watch -o dist -n first-component
+
 components: component.json index.js
 	@component install --dev
 
