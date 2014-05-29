@@ -1,0 +1,22 @@
+{
+  "name": "first-component",
+  "repository": "gobengo/first-component",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "necolas/normalize.css": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "styles": [
+    "styles.css"
+  ]
+}
